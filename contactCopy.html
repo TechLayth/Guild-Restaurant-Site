@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--
+    Name: Farah Farah
+    Date Created: November 1st 2021
+    Most recent revision: November 8th 2021
+-->
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link href="styles/resturantstyles.css" rel="stylesheet" type="text/css" />
+        <style>
+    
+        form {
+            margin: auto;
+            max-width: 600px;
+        }
+       
+       #centerSubmit {
+           margin: 0px 510px 0px 510px;
+       }
+       
+       #centerSubmit2 {
+           margin: 30px 270px 30px 270px;
+       }
+            #carouselBorder {
+                margin-bottom: 40px;
+                
+                border: thick solid #ff495c;
+            }
+       
+        
+        
+        </style>
+    </head>
+    
+    <body>
+        <header>
+        
+        <div class="mb-3 row">
+            <h1 class="display-1 col-md-12 text-center">Papa Comfort</h1>
+        </div>
+        <div class="mb-3 row">
+            <h2 class="display-6 col-md-12 text-center">Cuisine Cuisine</h2>
+        </div>
+        
+            <div class="jumbotron">
+              <h3 class="display-6 d-flex justify-content-center">Big News!</h3>
+              <p class="d-flex justify-content-center">Our Resturant is opening a new location! First hundred orders are on the House!</p>
+              <p class="d-flex justify-content-center">Click here to learn more.</p>
+              <p class="lead">
+              <div class="col-md-12 text-center">
+                <a style="background-color: red; border: green;"  class="btn btn-primary btn-lg;" href="#" role="button">Learn more</a>
+              </div>
+              </p>
+            </div>
+        </header>
+       
+        <nav>
+        <a class="badge bg-danger" href="indexCopy.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path>
+        </svg></a>
+        <a class="badge bg-danger" href="menuCopy.html">Menu</a>
+        <a class="badge bg-danger" href="contactCopy.html">Contact us</a>
+        <div class="clear-float"></div>
+        </nav>
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselBorder" class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/NewRestaurant2.jpg" class="d-block w-100" alt="New Restaurant">
+                  <div class="carousel-caption">
+                    <h3>New Location!</h3>
+                    <p>We're opening a new location!</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/specialMenu2.png" class="d-block w-100" alt="Special Menu">
+                  <div class="carousel-caption">
+                  <h3>New Menu!</h3>
+                  <p>We're rolling out our seasonal menu, with special options for this season.</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/specialBrew2.jpg" class="d-block w-100" alt="Special Brew">
+                  <div class="carousel-caption">
+                      <h3>Drink Of The Month!</h3>
+                      <p>The Drink of the Month is SG Special Brew.</p>
+                  </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      
+        
+        <form class="was-validated" action="submit.html" method="POST">
+            <div style="margin-top: 20px;" class="mb-3 row">
+              <label for="fullname" class="col-sm-3 col-form-label">Name:</label>
+              <div class="col-sm-9">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required>
+                  <div class="valid-feedback" style="color: lightgreen;">
+                       Looks good!
+                     </div>
+              </div>
+              </div>
+            
+            <div class="mb-3 row">
+              <label for="Email" class="col-sm-3 col-form-label">Email:</label>
+              <div class="col-sm-9">
+              <input type="text" class="form-control" id="emailInput" placeholder="example@email.com" required>
+                  <div class="valid-feedback" style="color: lightgreen;">
+                       Looks good!
+                     </div>
+              </div>
+              </div>
+            
+            <div class="mb-3 row">
+              <label for="Phone Number" class="col-sm-3 col-form-label">Phone Number:</label>
+              <div class="col-sm-9">
+              <input type="text" class="form-control" id="phoneNumberInput" placeholder="Enter 10 digit number" required>
+                  <div class="valid-feedback" style="color: lightgreen;">
+                       Looks good!
+                     </div>
+              </div>
+              </div>
+            
+            <div class="mb-3 row">
+            <label for="Inquiry" class="col-sm-3 col-form-label">Reason for inquiry:</label>
+            <div class="col-sm-9">
+            <select class="form-select form-select-lg mb-3" aria-label="">
+              <option selected>Catering</option>
+              <option value="1">Private Party</option>
+              <option value="2">Feedback</option>
+              <option value="3">other</option>
+            </select>
+            <div class="valid-feedback" style="color: lightgreen;">
+                 Looks good!
+               </div>
+            </div>
+            </div>
+            
+            <div class="mb-3 row">
+              <label for="additional Info" class="col-sm-3 col-form-label">Additional Information:</label>
+              <div class="col-sm-9">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+              <div class="valid-feedback" style="color: lightgreen;">
+                   Looks good!
+                 </div>
+              </div>
+            </div>
+            
+            <div>
+            <label for="haveYouBeenToTheRestaurant" class="col-sm-5 col-form-label">Have You been to the restaurant?</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+              <label class="form-check-label" for="inlineRadio1">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+              <label class="form-check-label" for="inlineRadio2">No</label>
+            </div>
+            
+            </div>
+            
+            <div>
+            <label for="Contact" class="col-sm-5 col-form-label">Best days to contact you?</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="Monday">M</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="Tuesday">T</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="Wednesday">W</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+              <label class="form-check-label" for="Thursday">Th</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+              <label class="form-check-label" for="Friday">F</label>
+            </div>
+            </div>
+            
+            <div class="col-auto">
+               <button id="centerSubmit2" type="submit" class="btn btn-primary">Submit</button>
+             </div>
+        </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        <noscript>
+            <div class="error message">
+               This site is best used with javascript enabled.
+            </div>
+        </noscript>
+    </body>
+    
+    <footer>
+        
+        <p>123 4th St W Tasteplace Minneapolis, MN 55412</P>
+        <p>952-111-1111</p>
+        <p>&copy; Papa Comfort. All rights reserved.</p>
+    
+    </footer>
+</html

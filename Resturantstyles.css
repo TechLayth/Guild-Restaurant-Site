@@ -1,0 +1,73 @@
+/*
+Creator: Farah Farah
+Date created: November 14th 2021
+Date last modified:
+*/
+body {
+    background-color: #139a43;
+    color: #fbfbfb;
+    font-family: arial, helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: thick solid #ff495c;
+}
+
+header, footer {
+    background-color: white;
+    color: #ff495c;
+    height: 50%;
+    text-align: center;
+    padding: 50px 50px 50px 10px;
+    margin:
+    border: thick solid #ff495c;
+}
+h1 {
+    font-size: 2.5em;
+}
+nav {
+    border-top: thick dashed #ff495c;
+    border-bottom: thick dashed #ff495c;
+    margin-top: px;
+}
+.clear-float {
+    clear: both;
+}
+article img {
+    float: center;
+}
+.right-content {
+    float: left;
+}
+article {
+    margin-bottom: 16px;
+}
+nav a:visited {
+    color: #aff4c7;
+}
+nav a {
+    background-color: #ff495c;
+    color: #fbfbfb;
+    padding: 8px;
+    border: thin solid #fbfbfb;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    float: left;
+}
+nav a:hover {
+    background-color: #fbfbfb;
+    color: #fbfbfb;
+    font-weight: bold;
+}
+nav a:active {
+    font-weight: bold;
+}
+header img {
+    float: left;
+    
+}
+header {
+    text-align: left
+}
+
